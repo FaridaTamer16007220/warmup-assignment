@@ -39,7 +39,7 @@ function secondsToHHHMMSS(totalSeconds) {
     return h + ":" + String(m).padStart(2, "0") + ":" + String(s).padStart(2, "0");
 }
 
-// ============================================================
+// =========================================================
 // Function 1: getShiftDuration(startTime, endTime)
 // ============================================================
 function getShiftDuration(startTime, endTime) {
