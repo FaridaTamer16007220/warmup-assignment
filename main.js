@@ -1,6 +1,6 @@
 const fs = require("fs");
 
-// --- Time parsing and formatting helpers 
+ 
 function parseTimeToSeconds(timeStr) {
     if (!timeStr || typeof timeStr !== "string") return 0;
     const s = timeStr.trim();
